@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 2em;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+ul.icons {
+    list-style: none;
+    padding: 0;
+}
+
+ul.icons li {
+    display: inline;
+    margin: 0 10px;
+}
+
+ul.icons li a {
+    color: #333;
+    font-size: 1.5em;
+}
+
+ul.actions {
+    list-style: none;
+    padding: 0;
+}
+
+ul.actions li {
+    display: inline;
+    margin: 0 10px;
+}
+
+form .fields {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form .fields .field {
+    flex: 1;
+    margin: 0 10px 20px 10px;
+}
+
+form .fields .field.half {
+    flex: 0 0 48%;
+}
+
+form .actions {
+    text-align: center;
+}
